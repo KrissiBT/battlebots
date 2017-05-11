@@ -22,6 +22,7 @@ function KeepLook() {
     var newWin = bot.win;
     //console.log(newLength);
 
+    //refresh chart if new data comes in
     if (JSON.stringify(newWin) != JSON.stringify(win)) {
       console.log("win");
       charts(newWin);
@@ -29,12 +30,16 @@ function KeepLook() {
     }
     var newBM = bot.blueMove;
     //console.log(newLength);
+
+        //refresh chart if new data comes in
     if (JSON.stringify(newBM) != JSON.stringify(blueMove)) {
       movementB(newBM);
       blueMove = newBM;
     }
     var newRM = bot.redMove;
     //console.log(newLength);
+
+        //refresh chart if new data comes in
     if (JSON.stringify(newRM) != JSON.stringify(redMove)) {
       movement(newRM);
       redMove = newRM;

@@ -3,7 +3,7 @@ $( document ).ready(function() {
 
 });
 
-
+// function simply grabs api info periotically 
 function KeepLook() {
     $.get( "info.php", function( data ) {
     $( ".result" ).html( data );
