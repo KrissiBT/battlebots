@@ -1,0 +1,1 @@
+{"win":{"redWin":0,"blueWin":0},"blueMove":{"f":0,"b":0,"0":0,"r":0},"redMove":{"f":0,"b":0,"l":0,"r":0}}

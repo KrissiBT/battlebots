@@ -1,0 +1,26 @@
+.bahighcharts-point.highcharts-color-0{
+  fill: #e60000;
+}
+.bahighcharts-point.highcharts-color-1{
+  fill: #0000e6;
+}
+body{
+
+}
+rect.bahighcharts-backround{
+    fill: #737373;
+}
+body{
+  sbackground-color: green;
+}
+.strokeme
+{
+    font-size: 3em;
+    color: white;
+    font-weigth: bolder;
+}
+text {
+  fill: black !important;
+  font-size: 500%;
+  font-weight: bolder;
+}
